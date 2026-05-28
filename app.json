@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "South Australia Marine Cams",
+    "slug": "sa-marine-webcams",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "description": "Live webcam feeds from 20 boat ramps and marine locations across South Australia. Browse by region and save your favourites.",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.samarinewebcams.app",
+      "buildNumber": "1",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app does not use your camera.",
+        "NSLocationWhenInUseUsageDescription": "This app does not use your location.",
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B5CAB",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "package": "com.samarinewebcams.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "719f1177-b5ae-4742-a207-184046f71a20"
+      }
+    },
+    "owner": "kanejamison"
+  }
+}
